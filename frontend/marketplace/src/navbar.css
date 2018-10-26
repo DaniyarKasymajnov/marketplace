@@ -1,0 +1,48 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 600px 600px 1fr;
+  grid-template-areas:
+    ". top top ."
+    ". bottom bottom .";
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: top;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80px;
+}
+.left {
+  display: flex;
+}
+.logo {
+  font-size: 30px;
+  padding-right: 25px;
+  color: #f45800;
+  font-weight: 900;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  height: 34px;
+  width: 316px;
+  padding: 6px 10px;
+  box-sizing: border-box;
+}
+
+form button {
+  height: 34px;
+  width: 80px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.bottom {
+  grid-area: bottom;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
