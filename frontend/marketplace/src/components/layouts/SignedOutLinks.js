@@ -14,10 +14,16 @@ const SignedOutLinks = () => {
             <NavLink to="/register">Register</NavLink>
           </li>
           <li>
-            <NavLink to="/signin">Login</NavLink>
+            <NavLink className="signin" to="/signin">
+              Sign in
+            </NavLink>
           </li>
-          <li>
-            <NavLink to="/cart">Cart</NavLink>
+          <li className="icon">
+            <NavLink to="/cart">
+              <span>
+                <i class="fas fa-shopping-cart" />
+              </span>
+            </NavLink>
           </li>
         </ul>
       </div>
