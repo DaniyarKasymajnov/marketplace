@@ -9,13 +9,22 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 0;
   list-style: none;
 }
 .nav-links li {
-  padding: 0 15px;
+  margin-right: 7px;
 }
 
 .nav-links li a {
+  color: #222;
   text-decoration: none;
+  padding: 8px;
+  font-size: 14px;
+}
+.signin {
+  border: 1px black solid;
+  border-radius: 4px;
+}
+.fas {
+  font-size: 19px;
 }

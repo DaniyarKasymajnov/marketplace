@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 80px;
+  border-bottom: 1px#E1E3DF solid;
 }
 .left {
   display: flex;
@@ -33,16 +34,23 @@ form input {
   width: 316px;
   padding: 6px 10px;
   box-sizing: border-box;
+  border: 1px grey solid;
+  border-right: 0px;
+  border-radius: 5px 0px 0px 5px;
 }
 
 form button {
   height: 34px;
   width: 80px;
-  font-size: 15px;
+  font-size: 14px;
+  border: 1px grey solid;
+  border-radius: 0px 5px 5px 0px;
   box-sizing: border-box;
+  background-color: #222;
+  color: white;
+  font-weight: bolder;
 }
 .bottom {
   grid-area: bottom;
-  border-top: 1px grey solid;
-  border-bottom: 1px grey solid;
+  border-bottom: 1px#E1E3DF solid;
 }
