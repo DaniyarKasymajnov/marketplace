@@ -1,2 +1,2 @@
 # Marketplace
-A marketplace for handmade products manly for the Kazakh market
+A marketplace for handmade products mainly for the Kazakh market
