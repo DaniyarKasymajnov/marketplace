@@ -1,9 +1,9 @@
 .navbar {
   display: grid;
-  grid-template-columns: 1fr 600px 600px 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    ". top top ."
-    ". bottom bottom .";
+    "top top"
+    "bottom bottom";
 }
 .top {
   display: flex;
@@ -14,27 +14,40 @@
   grid-template-columns: 1fr 1fr;
   height: 80px;
   border-bottom: 1px#E1E3DF solid;
+  padding: 0 18px;
 }
 .left {
   display: flex;
+  padding-left: 18px;
+}
+.right {
+  padding-right: 18px;
 }
 .logo {
-  font-size: 30px;
+  font-size: 36px;
   padding-right: 25px;
   color: #f45800;
-  font-weight: 900;
+  font-family: "Guardian-EgypTT", serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
 .search {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 form input {
+  background-color: #f9f9f8;
+  border: 1px solid #cfcbc8;
+  font-family: "Graphik Webfont", -apple-system, BlinkMacSystemFont, "Roboto",
+    "Droid Sans", "Segoe UI", "Helvetica", Arial, sans-serif;
+  padding: 6px 10px;
+  font-size: 14px;
+  box-shadow: inset 0 1px 2px #e9e9e8, 0 0 0 1000px #fbfbfa inset;
   height: 34px;
   width: 316px;
-  padding: 6px 10px;
   box-sizing: border-box;
-  border: 1px grey solid;
   border-right: 0px;
   border-radius: 5px 0px 0px 5px;
 }
@@ -43,11 +56,12 @@ form button {
   height: 34px;
   width: 80px;
   font-size: 14px;
+  font-weight: bold;
   border: 1px grey solid;
   border-radius: 0px 5px 5px 0px;
   box-sizing: border-box;
   background-color: #222;
-  color: white;
+  color: #fff;
   font-weight: bolder;
 }
 .bottom {

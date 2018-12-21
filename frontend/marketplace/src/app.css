@@ -1,3 +1,50 @@
-.header1 {
-  color: blue;
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "carousel carousel"
+    "banner banner";
+  padding: 0 18px;
+}
+.title {
+  grid-area: title;
+  text-align: center;
+}
+.carousel {
+  grid-area: carousel;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Lucida sans", serif;
+  letter-spacing: 2.5px;
+  padding: 20px 18px 0 18px;
+}
+.carousel h1 {
+  font-weight: 300;
+}
+.carousel button {
+  background-color: #f45800;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px #f45800 solid;
+  border-radius: 10px;
+  font-weight: 200;
+  color: white;
+  letter-spacing: 1px;
+}
+.banner {
+  grid-area: banner;
+  margin-top: 30px;
+  padding: 12px 18px;
+}
+.header {
+  padding: 12px;
+  padding-top: 30px;
+  margin: 0;
+  color: #222;
+  font-family: "Guardian-EgypTT", serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  font-size: 32px;
 }

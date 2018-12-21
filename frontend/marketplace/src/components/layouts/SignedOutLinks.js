@@ -8,7 +8,7 @@ const SignedOutLinks = () => {
       <div className="nav-menu-right">
         <ul className="nav-links">
           <li>
-            <NavLink to="/sell">Sell on DnD</NavLink>
+            <NavLink to="/sell">Sell on Handy</NavLink>
           </li>
           <li>
             <NavLink to="/register">Register</NavLink>
@@ -21,7 +21,7 @@ const SignedOutLinks = () => {
           <li className="icon">
             <NavLink to="/cart">
               <span>
-                <i class="fas fa-shopping-cart" />
+                <i className="fas fa-shopping-cart" />
               </span>
             </NavLink>
           </li>

@@ -9,10 +9,10 @@ const Navbar = () => {
     <div className="navbar">
       <div className="top">
         <div className="left">
-          <div className="logo">Handy.kz</div>
+          <div className="logo">Handy</div>
           <div className="search">
             <form action="">
-              <input type="text" />
+              <input type="text" placeholder="Search for items or shops" />
               <button>Search</button>
             </form>
           </div>
