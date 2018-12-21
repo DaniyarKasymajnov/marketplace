@@ -1,0 +1,16 @@
+.wrapper-info {
+  display: flex;
+}
+.fa-check {
+  color: #e55400;
+  padding-right: 6px;
+}
+.span-info {
+  display: block;
+  text-align: center;
+  padding: 6px 0;
+  letter-spacing: 1px;
+}
+.description {
+  text-align: center;
+}
